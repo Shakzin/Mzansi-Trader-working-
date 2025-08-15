@@ -1,0 +1,40 @@
+mzansi-trader/
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── .env
+│   ├── models/User.js
+│   ├── models/Product.js
+│   ├── models/Cart.js
+│   ├── models/Conversation.js
+│   ├── models/Message.js
+│   ├── models/Review.js
+│   ├── controllers/authController.js
+│   ├── controllers/productController.js
+│   ├── controllers/cartController.js
+│   ├── controllers/messageController.js
+│   ├── controllers/reviewController.js
+│   ├── routes/authRoutes.js
+│   ├── routes/productRoutes.js
+│   ├── routes/cartRoutes.js
+│   ├── routes/messageRoutes.js
+│   ├── routes/reviewRoutes.js
+│   ├── middleware/authMiddleware.js
+│   ├── config/db.js
+│   └── config/cloudinary.js
+├── frontend/
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── package.json
+│   └── src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       ├── components/auth/LoginForm.jsx
+│       ├── components/auth/RegisterForm.jsx
+│       ├── components/layout/Navbar.jsx
+│       ├── pages/Shop.jsx
+│       ├── pages/Cart.jsx
+│       ├── pages/seller/Dashboard.jsx
+│       ├── pages/seller/AddProduct.jsx
+│       └── services/api.js
+└── README.md
